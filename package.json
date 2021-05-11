@@ -1,0 +1,23 @@
+{
+  "name": "random-posts",
+  "version": "0.0.1",
+  "description": "Returns random posts from the jsonplaceholder API",
+  "license": "MIT",
+  "author": {
+    "name": "Juan Villarroel",
+    "email": "me@juanlvs.ml",
+    "url": "https://juanlvs.ml"
+  },
+  "scripts": {
+    "start": "vercel dev --listen 4000",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "@vercel/node": "1.10.0",
+    "axios": "0.21.1",
+    "http-status": "1.5.0"
+  },
+  "devDependencies": {
+    "@types/http-status": "1.1.2"
+  }
+}
